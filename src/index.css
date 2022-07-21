@@ -39,6 +39,7 @@ header {
   padding: 40px 50px;
   margin: 20px 0;
   position: relative;
+  box-shadow: 5px 5px rgba(20, 123, 88, 0.86);
 }
 
 .card.reverse {
@@ -87,7 +88,7 @@ header {
 
 .rating li:hover,
 .num-display {
-  background: #ff6a95;
+  background: rgba(20, 123, 88);
   color: #fff;
 }
 
@@ -96,7 +97,7 @@ header {
 }
 
 [type='radio']:checked ~ label {
-  background: #ff6a95;
+  background: rgba(20, 123, 88, 0.86);
   color: #fff;
 }
 
@@ -156,11 +157,12 @@ input:focus {
 }
 
 .btn-primary {
-  background-color: #202142;
+  background-color: rgba(20, 123, 88, 0.86);
+
 }
 
 .btn-secondary {
-  background: #ff6a95;
+  background: rgba(19, 227, 235, 0.86);
 }
 
 .btn:hover {
@@ -200,7 +202,7 @@ input:focus {
 }
 
 .about-link a:hover {
-  color: #ff6a95;
+  color: rgba(20, 123, 88, 0.86);
 }
 
 .about h1 {
